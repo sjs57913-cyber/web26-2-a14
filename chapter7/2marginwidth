@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>marginwidth</title>
+<style>
+
+/*초기화*/
+* { margin:0; padding: 0}
+
+/* 주제 */
+body{
+    margin:0 auto;
+    width: 480px;
+}
+</style>
+</head>
+<body>
+    <h1>lorem ipsum</h1>
+    <h2>neque porro quisquam est qui...</h2>
+    <p>lorem ipsum dolor sit amet,consectertur adipsicing elit.</p>
+    <p>proin ut quam feugiat, tincidunt dolor nec, iaculis dui.</p>
+</body>
+</html>

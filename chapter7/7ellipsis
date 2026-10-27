@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>ellipsis</title>
+<style>
+    h1, p {
+        width: 300px;
+    }
+
+    .ellipsis {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow:ellipsis;
+    }
+   </style>
+</head>
+<body>
+    <h1 class="ellipsis">lorem ipsum dolor sit amet, consectetur</h1>
+    <p class="ellipsis">lorem ipsum dolor sit amet, consectertur</p>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>fixed bar</title>
+<style>
+    .container {
+        margin-top: 50px;
+        margin_left: 50px;
+    }
+
+    .top_bar {
+        background:red;
+        position: fixed;
+        left: 0; top: 0; right: 0;
+        height: 50px;
+    }
+
+    .left_bar {
+        background: blue;
+        position: fixed;
+        left: 0; top: 50px; bottom: 0;
+        width: 50px;
+    }
+</style>
+</head>
+<body>
+    <div class="top_bar"></div>
+    <div class="left_bar"></div>
+    <div class="container">
+        <p>lorem ipsum dolor sit amet.</p>
+        <p>proin ut quam feugiat, tincidunt dolor nec,</p>
+        <p>fusce elementum pretium diam vitae facilisis.</p>
+        <p>mauris non lobortis lectus.</p>
+    </div>
+</body>
+</html>
